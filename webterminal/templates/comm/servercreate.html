@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% load tags %}
+{% block content %}
+    <form method='post' class='form-horizontal'>
+        {% csrf_token %}
+        {% render_table_form 'ServerInfor' %}
+    </form>
+
+{% endblock %}

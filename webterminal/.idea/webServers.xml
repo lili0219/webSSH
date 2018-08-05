@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2328641f-4014-4a18-8901-8c1fb8430991" name="Docker" url="http://192.168.88.129">
+        <fileTransfer host="192.168.88.129" port="22" rootFolder="/home/lixn/webterminal" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="1736934f-55e1-43da-a84a-000389837e4c" name="IPRANTest" url="http://192.168.130.246">
+        <fileTransfer host="192.168.130.246" port="22" rootFolder="/slview/test/lixn/webterminal" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
